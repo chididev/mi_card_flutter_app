@@ -41,17 +41,17 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               Divider(
-                indent: 50.0,
-                endIndent: 50.0,
-                thickness: 1.0,
+                indent: 30.0,
+                endIndent: 30.0,
+                thickness: 1.5,
                 color: Colors.white,
               ),
               SizedBox(
                 height: 10.0,
               ),
-              Card(
-                child: Padding(
-                  padding: EdgeInsets.all(2.0),
+              Padding(
+                padding: EdgeInsets.all(8.0),
+                child: Card(
                   child: ListTile(
                     tileColor: Colors.white,
                     leading: Icon(
@@ -69,9 +69,9 @@ class MyApp extends StatelessWidget {
                   ),
                 ),
               ),
-              Card(
-                child: Padding(
-                  padding: EdgeInsets.all(2.0),
+              Padding(
+                padding: EdgeInsets.all(8.0),
+                child: Card(
                   child: ListTile(
                     tileColor: Colors.white,
                     leading: Icon(
